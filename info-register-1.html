@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/app/index.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+    	*{
+    		margin:0;
+    		padding: 0;
+    		list-style-type:none;
+    	}
+    	div img{
+    		border-radius: 50%;
+    		height:5rem;
+    		display: inline-block;
+    		margin: 3rem 0;
+    	}
+
+    </style>
+</head>
+<body  style="background: url(images/register-b.png) no-repeat;width:100%;height:auto;background-size:cover;" class="body">
+<div class="">
+	<div style="height: 10rem;text-align: center;"><img src="images/register-a.png"/></div>
+	<div style="margin:0 auto;" class="mui-col-xs-10">
+		<input type="text" style="border: none;border-radius: 1rem;height:2rem;opacity: 0.8;" placeholder="账号"/>
+		<input type="password" style="border: none;border-radius: 1rem;height:2rem;opacity: 0.8;" placeholder="密码"/>
+		<div class="mui-text-center" style="color:grey;">
+		<input type="radio" name="记住密码"/>记住密码
+		<input type="radio" name="记住密码"/>记住密码
+		</div>
+		<div class="mui-text-center" style="margin: 1rem 0 0 0;">
+			<input type="button" style="background: orange;width: 14rem;border: none;
+				border-radius: 1rem;opacity: 0.8;" value="登录" / id="login">
+		</div>
+		<div class="mui-text-center" style="margin: 1rem 0 0 0;">
+			<a href="" style="color:grey;">忘记密码?</a>
+		</div>
+		<div style="margin: 1rem 0 0 0;" class="mui-text-center">
+			<input style="border: none;border-radius: 1rem;width:6rem;opacity: 0.8;" type="button" value="微信登录" />
+			<input style="border: none;border-radius: 1rem;width:6rem;opacity: 0.8;" type="button" value="QQ登录" />
+		</div>
+		
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+		mui('.body').on('tap','#login',function(event){
+						
+				mui.openWindow({
+		    url:'index.html',
+		    id:'index',
+		    styles:{
+		      top:'0px',//新页面顶部位置
+		      bottom:'0px',//新页面底部位置
+		    },
+		    extras:{
+		    },
+		    createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+		    show:{
+		      autoShow:true,//页面loaded事件发生后自动显示，默认为true
+		      //aniShow:slide-in-right,//页面显示动画，默认为”slide-in-right“；
+		      //duration:animationTime//页面动画持续时间，Android平台默认100毫秒，iOS平台默认200毫秒；
+		    },
+		    waiting:{
+		      autoShow:true,//自动显示等待框，默认为true
+		      title:'正在加载...',//等待对话框上显示的提示内容
+		      options:{
+		      //  width:waiting-dialog-widht,//等待框背景区域宽度，默认根据内容自动计算合适宽度
+		      //  height:waiting-dialog-height,//等待框背景区域高度，默认根据内容自动计算合适高度
+		      }
+		    }
+		})
+		},false)
+</script>
+</html>

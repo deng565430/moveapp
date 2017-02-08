@@ -1,0 +1,109 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/*.mui-content,.mui-row{
+ width: 100%;
+}*/
+.mui-table-view-cell{
+     list-style: none;
+     width: 30px;
+     height: 30px;
+     border: 1px solid red;
+     border-radius: 50%;
+}
+
+.one{
+     background:#49bbbc ;  
+}
+.two{
+     background:#ffa518 ;  
+}
+.three{
+     background:#04dc44 ;  
+}
+.four{
+     background:#fe6a46 ;  
+}
+.five{
+     background:#ffa44e ;  
+}
+.six{
+     background:#04dc44 ;  
+}
+.seven{
+     background:#fe6a46 ;  
+}
+.eight{
+     background:#2d61eb ;  
+}
+.nine{
+     background:#41aeed ;  
+}
+.ten{
+     background:#3bd3ca ;  
+}
+
+.one a span{
+     color: white;
+     font-size: 15px;
+     margin-top: -30px;
+     margin-left: -7px;
+     overflow: hidden;
+}
+.mui-col-sm-2{
+      margin-left: 10px;
+}
+.mui-col-sm-2>span{
+     font-size: 12px;
+     padding-left: 3px;
+}
+.seven,.eight,.nine,.ten{
+  margin-left: 7px;
+}
+
+/*当季游样式*/
+.second-top{
+     /*margin-left: 110px;*/
+    text-align: center;
+     
+}
+
+.mui-col-sm-5{
+     width: 112px;
+     height: 60px;
+     border: 1px solid red;
+     border-radius: 7px;
+     background: url();
+     overflow: hidden;
+     margin: 7px 8px;
+     
+}
+.mui-col-sm-5 img{
+     width: 100%;
+     height: 100%;
+}
+/*.Four{
+     padding:0 20px ;
+
+}*/
+
+/*每日推荐*/
+.mui-col-sm-12{
+     width: 250px;
+     height: 70px;
+     border: 1px solid red;
+     border-radius: 19px;
+     /*background: url(../img/未标题-5.jpg) no-repeat;*/
+     overflow: hidden;
+     margin-bottom: 10px;
+}
+
+.mui-col-sm-12 img{
+     width: 100%;
+     height: 100%;
+}
+.Six{
+   margin-left: 13px;
+   margin-top: 6px;
+}

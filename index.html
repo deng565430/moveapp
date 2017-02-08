@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script src="js/mui.min.js"></script>
+    <link href="css/app/reset.css" rel="stylesheet"/>
+    <link href="css/app/index.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+<!--头部-->
+<header class="mui-bar mui-bar-nav" id="nav">
+	<div class="mui-row mui-popup-text">
+		<div class="mui-col-xs-1">
+			<i class="mui-action-back mui-icon mui-icon-left-nav"></i>
+		</div>
+		<div class="mui-col-xs-2">
+			<ul>
+		   		 <li id="citys">
+		   		 	<a href="">法国
+		   		 		<i class="mui-icon mui-icon-arrowdown"></i>
+		   		 	</a>
+		   		 	
+		   		 </li>
+		    </ul>
+		</div>
+		<div class="mui-col-xs-8">
+			<div class="mui-input-row mui-search">
+		    	<input type="search" class="mui-input-clear" placeholder="搜索目的地国家/城市/关键词">
+			</div>
+		</div>
+		<div class=""></div>
+	</div>
+    
+    
+    
+</header>
+
+<!--底部-->
+<footer class="mui-bar mui-bar-tab" id="footer" style="background:#f7fdfd;">
+    <a class="mui-tab-item mui-active" id="home">
+        <span class="mui-icon mui-icon-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" id="classify">
+        <span class="mui-icon mui-icon-list"></span>
+        <span class="mui-tab-label">分类</span>
+    </a>
+    <a class="mui-tab-item" id="destination">
+        <span class="mui-icon mui-icon-location"></span>
+        <span class="mui-tab-label">目的地</span>
+    </a>
+    <a class="mui-tab-item" id="panicBuying">
+        <span class="mui-icon mui-icon-reload"></span>
+        <span class="mui-tab-label">抢购</span>
+    </a>
+    <a class="mui-tab-item" id="info">
+        <span class="mui-icon mui-icon-person"></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</footer>
+</body>
+</html>
+<script type="text/javascript" src="js/app/index.js">
+	/*事件监听*/
+	mui('body').on('tap','a',function(){document.location.href=this.href;});
+</script>

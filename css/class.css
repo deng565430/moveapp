@@ -1,0 +1,87 @@
+
+/*整体样式*/
+*{
+margin: 0;
+padding: 0;
+}
+a{
+   text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/*上部分*/
+
+#content-top{
+          width: 100%;
+          height: 270px;
+          /*border: 1px solid lightcoral;*/
+        
+}
+
+#content-top .ten{
+      width: 20%;    
+      /*border: 1px solid lightseagreen;*/
+      float: left;
+      margin-top: 6px;
+      
+}
+#content-top .ten p{
+	font-size: 1rem;
+}
+.img{
+    margin: 0 auto;
+    height: 100px;
+   
+}
+.img img{
+	width: 100%;
+}
+.text{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+/*中部分*/ 
+
+.content-center{
+      margin-top: 20px;
+      width: 100%;
+      height: 500px;
+      /*border: 1px solid red;*/
+     /* padding-left: 40px;*/
+
+}
+.content-center .title,#content-footer .title{
+    text-align:center;
+   
+}
+.content-center ul li{
+     width: 46%;
+     height:205px;
+     /*border: 1px solid lightseagreen;*/
+     float: left;
+     border-radius: 9px;
+     margin: 4px;
+}
+
+/*下部分*/
+
+#content-footer{
+margin-top: 20px;
+    width: 100%;
+    height: 850px;
+    /*border: 1px solid red;*/
+}
+#content-footer ul li{
+    width: 92%;
+    height: 200px;
+    /*border: 1px solid darkblue;*/
+    margin: 0 auto;
+    margin-top: 9px;
+    border-radius: 6px;
+
+}

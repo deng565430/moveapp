@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>周边</title>
+		<link rel="stylesheet" href="../css/mui.min.css" />
+		<link rel="stylesheet" href="../css/app/reset.css" />
+		<script type="text/javascript" src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<style type="text/css">
+			.mui-bar-nav a{
+				color:#007aff;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 缩放式侧滑（类手机QQ） -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable mui-scalable">
+		  <!-- 菜单容器 -->
+		  <aside class="mui-off-canvas-left mui-transitioning" id="offCanvasSide">
+		    <div class="mui-scroll-wrapper">
+		      <div class="mui-scroll">
+		        <!-- 菜单具体展示内容 -->
+		        
+		      </div>
+		    </div>
+		  </aside>
+		  <!-- 主页面容器 -->
+		  <div class="mui-inner-wrap mui-transitioning">
+		    <!-- 主页面标题 -->
+		   <header class="mui-bar mui-bar-nav">
+			    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			     <a class="mui-icon mui-icon-home mui-pull-right adda"></a>
+			  
+			    <h1 class="mui-title">周边游</h1>
+			</header>
+		    <div class="mui-content mui-scroll-wrapper">
+		      <div class="mui-scroll">
+		        <!-- 主界面具体展示内容 -->
+		        <div id="slider" class="mui-slider" style="height:9rem;">
+		          <div class="mui-slider-group mui-slider-loop">
+		            <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2016/12/1482997529_42444.jpg">
+		              </a>
+		            </div>
+		            <!-- 第一张 -->
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483522365_52605.jpg">
+		              </a>
+		            </div>
+		            <!-- 第二张 -->
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483431316_21319.jpg">
+		              </a>
+		            </div>
+		            <!-- 第三张 -->
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483438170_21147.jpg">
+		              </a>
+		            </div>
+		            <!-- 第四张 -->
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2016/12/1482997529_42444.jpg">
+		              </a>
+		            </div>
+		           <!-- <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2016/12/1482995729_60756.jpg">
+		              </a>
+		            </div>
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483610039_58597.jpg">
+		              </a>
+		            </div>
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483429669_85107.jpg">
+		              </a>
+		            </div>
+		            <div class="mui-slider-item">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483513604_44867.jpg">
+		              </a>
+		            </div>-->
+		            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		              <a href="#">
+		                <img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483522365_52605.jpg">
+		              </a>
+		            </div>
+		          </div>
+		          <div class="mui-slider-indicator">
+		            <div class="mui-indicator mui-active"></div>
+		            <div class="mui-indicator"></div>
+		            <div class="mui-indicator"></div>
+		            <div class="mui-indicator"></div>
+		          </div>
+		        </div>
+		      	<div style="height: .5rem;"></div>
+		      	<div class="mui-segmented-control">
+		      	    <a class="mui-control-item mui-active" href="#purpose">TOP 目的地</a>
+		      	    <a class="mui-control-item" href="#grogshop">TOP Brand酒店</a>
+		      	</div>
+		      	<div class="mui-content-padded">
+		      		<div id="purpose" class="mui-control-content mui-active">
+		      			<ul class="mui-table-view mui-grid-view">
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4" id="city">
+						        <a href="">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/11/1478772708_56678.jpg">
+						            <div class="mui-media-body">天目湖御水温泉</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/12/1482237021_18953.jpg">
+						            <div class="mui-media-body">最美城镇</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/08/1471513493_37028.jpg">
+						            <div class="mui-media-body">恐龙园主题乐园</div>
+						        </a>
+						    </li>
+						      <li class="mui-table-view-cell mui-media mui-col-xs-4" id="city">
+						        <a href="">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/09/1473650518_84393.jpg">
+						            <div class="mui-media-body">异域风情</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/10/1477544968_14081.jpg">
+						            <div class="mui-media-body">泡温泉玩滑雪</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/08/1471417178_20291.jpg">
+						            <div class="mui-media-body">大好河山</div>
+						        </a>
+						    </li>
+						    
+						</ul>
+		      		</div>
+		      		<div id="grogshop" class="mui-control-content">
+		      			<ul class="mui-table-view mui-grid-view">
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4" id="city">
+						        <a href="">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/10/1476064066_37056.jpg">
+						            <div class="mui-media-body">呼吸每一口负离子</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/04/1461827468_37072.jpg">
+						            <div class="mui-media-body">洲际人生知行天下</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/04/1461827289_74020.jpg">
+						            <div class="mui-media-body">花间堂</div>
+						        </a>
+						    </li>
+						      <li class="mui-table-view-cell mui-media mui-col-xs-4" id="city">
+						        <a href="">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/04/1461827017_14850.jpg">
+						            <div class="mui-media-body">悦榕庄</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/04/1461826887_97138.jpg">
+						            <div class="mui-media-body">希尔顿</div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+						        <a href="#">
+						            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/04/1461826415_79548.jpg">
+						            <div class="mui-media-body">喜达屋</div>
+						        </a>
+						    </li>
+						    
+						</ul>
+		      		</div>
+		      	</div>
+		      	<div>
+		      		<ul class="mui-table-view mui-grid-view">
+					    <li class="mui-table-view-cell mui-media mui-col-xs-3" id="zhoubianyou">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2017/01/1483523327_25442.png">
+					            <div class="mui-media-body">春节特惠</div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2017/01/1483522051_78630.png">
+					            <div class="mui-media-body">迪士尼</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/09/1475042294_95477.png">
+					            <div class="mui-media-body">畅泡温泉</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/10/1476067611_24060.png">
+					            <div class="mui-media-body">都市观光</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2015/12/145034382524888.png">
+					            <div class="mui-media-body">主题乐园</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/12/1482291762_97736.png">
+					            <div class="mui-media-body">畅玩滑雪</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2016/08/1470821063_94818.png">
+					            <div class="mui-media-body">古镇村落</div>
+					        </a>
+					    </li>
+					     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+					        <a href="#">
+					            <img class="mui-media-object" src="https://pics.lvjs.com.cn/pics/super/2015/12/144974098519290.png">
+					            <div class="mui-media-body">山水景观</div>
+					        </a>
+					    </li>
+					</ul>
+		      	</div>
+			    <div style="height: .5rem;"></div>
+			    <div class="mui-row mui-content-padded">
+			    	<div class="mui-col-xs-6">
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483437775_91618.jpg" alt="" width="100%" style="vertical-align : top" />
+			    	</div>
+			    	<div class="mui-col-xs-6">
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473043768_28861.png" alt="" width="100%" style="vertical-align : top" />
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2016/11/1478164654_50955.png" alt="" width="100%" style="vertical-align : top" />
+			    	</div>
+			    	<div class="mui-col-xs-4">
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2016/06/1466388792_49576.jpg" alt="" width="100%" style="vertical-align : top" />
+			    	</div>
+			    	<div class="mui-col-xs-4">
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2016/05/1463109821_47981.png" alt="" width="100%" style="vertical-align : top" />
+			    	</div>
+			    	<div class="mui-col-xs-4">
+			    		<img src="https://pics.lvjs.com.cn/pics/super/2016/05/1462935483_37069.png" alt="" width="100%" style="vertical-align : top" />
+			    	</div>
+			    </div>
+		      	<div style="height: .5rem;"></div>
+		      	<div class="mui-scroll-wrapper  mui-segmented-control mui-segmented-control-inverted">
+		      	    <div class="mui-scroll">
+		      	        <a class="mui-control-item mui-active" href="#grogshop">
+		      	           <i class="mui-icon mui-icon-home"></i>
+		      	           酒店
+		      	        </a>
+		      	        <a class="mui-control-item" href="#resortHotel">
+		      	        	 <i class="mui-icon mui-icon-map"></i>
+		      	          度假酒店
+		      	        </a>
+		      	        <a class="mui-control-item" href="#withMission">
+		      	        	 <i class="mui-icon mui-icon-personadd"></i>
+		      	           跟团游
+		      	        </a>
+		      	        <a class="mui-control-item" href="#events">
+		      	        	 <i class="mui-icon mui-icon-location"></i>
+		      	           热门活动
+		      	        </a>
+		      	        <a class="mui-control-item" href="#path">
+		      	         <i class="mui-icon mui-icon-spinner mui-spin"></i>	
+		      	           路线
+		      	        </a>
+		      	        <a class="mui-control-item" href="#ThreeDaysRegiment">
+		      	        	 <i class="mui-icon mui-icon-plusempty"></i>
+		      	           三日团
+		      	        </a>
+		      	    </div>
+		      	</div>
+		      	<div class="mui-control-content mui-active" id="grogshop">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484041126_76546.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>阴阳温泉2天1晚自驾游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473237767_77559.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484043353_82046.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+		
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+				<div class="mui-control-content" id="resortHotel">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>度假酒店</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="http://pic.lvmama.com/uploads/pc/place2/2016-06-21/65eeff3b-b7eb-4400-bf67-8e75bc853b40_480_320.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+	
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>上海</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>度假酒店</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="http://pic.lvmama.com/uploads/pc/place2/2016-06-21/65eeff3b-b7eb-4400-bf67-8e75bc853b40_480_320.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+	
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>上海</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>度假酒店</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="http://pic.lvmama.com/uploads/pc/place2/2016-06-21/65eeff3b-b7eb-4400-bf67-8e75bc853b40_480_320.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+	
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>上海</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+		     	<div class="mui-control-content " id="withMission">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>黄山三日游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484558103_49847.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>宿四星酒店，含黄山大门票、醉温泉等大门票</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>安徽</span>
+							<span><span style="color:red;">￥938</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>阴阳温泉2天1晚自驾游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473237767_77559.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484043353_82046.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+		
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+				<div class="mui-control-content" id="events">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>横店大庙会</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1483537852_55848.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>阴阳温泉2天1晚自驾游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473237767_77559.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484043353_82046.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+		
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+				<div class="mui-control-content" id="path">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>临安度假酒店</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/11/1479896574_89473.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>阴阳温泉2天1晚自驾游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473237767_77559.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484043353_82046.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+		
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+				<div class="mui-control-content" ID="ThreeDaysRegiment">
+			      	<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484041126_76546.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>阴阳温泉2天1晚自驾游</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2016/09/1473237767_77559.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+							
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+					<div class="mui-card">
+						<div class="mui-card-header">
+							<h5>精选四季温泉</h5>	
+						</div>
+						<div class="mui-card-content">
+							<img src="https://pics.lvjs.com.cn/pics/super/2017/01/1484043353_82046.jpg" alt="" width="100%"/>
+						</div>
+						<!--页脚，放置补充信息或支持的操作-->
+						
+						<div class="mui-card-footer">
+							<p>景点11选1（天颐温泉/四季悦/万隆山/夜游金鸡湖/苏州海洋馆/太湖湿地公园/苏州乐园）+游泳池...</p>
+		
+						</div>
+						<div class="mui-card-footer">
+							<span><i class="mui-icon mui-icon-location"></i>苏州</span>
+							<span><span style="color:red;">￥499</span>起/份</span>
+						</div>
+					</div>
+				</div>
+		    </div>  
+		    <div class="mui-off-canvas-backdrop"></div>
+		  </div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	//获得slider插件对象
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+	  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+	
+/*解决策划不能下拉的问题*/
+	(function ($) {
+	$('.mui-scroll-wrapper').scroll({
+		bounce: false,
+		indicators: true //是否显示滚动条
+	});
+	
+	})(mui);
+</script>

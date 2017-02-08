@@ -1,0 +1,44 @@
+
+/*头部*/
+#nav{
+	padding: 10px 0;
+	background-color: #49bbbc;
+	height: 60px;
+	border:1xp solid red;
+	vertical-align: bottom;
+}
+#nav .mui-row {
+}
+#nav .mui-row .mui-col-xs-1 i{
+	font-size: 1.5rem;
+	height: 100%;
+}
+#nav i,#nav div ul li a{
+	color:white;
+}
+#nav div ul {
+	height: 90%;
+	padding: 10% 0;
+	vertical-align: top;
+	
+}
+#nav div ul li{
+	height: 100%;
+	
+	font-size: 1rem;
+}
+#nav div ul li i{
+	font-size: .9rem;
+}
+#nav div input{
+	background-color: white;
+}
+#nav div input::placeholder{
+	color:red;
+}
+/*底部*/
+#footer{
+	height: 61px;
+	background-color: #eee;
+	border-top:1px solid #e5e5e5;
+}

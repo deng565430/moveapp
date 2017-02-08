@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet"/>
+		<link href="css/app/reset.css" rel="stylesheet"/>
+		<script src="js/mui.min.js"></script>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+			
+			<!--轮播-->
+		    <div id="slider" class="mui-slider" style="height: 8rem;">
+		      <div class="mui-slider-group mui-slider-loop">
+		        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		            <img src="images/APP-lunbo-1.jpg">
+		          </a>
+		        </div>
+		        <!-- 第一张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/APP-lunbo-2.jpg">
+		          </a>
+		        </div>
+		        <!-- 第二张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/APP-lunbo-3.jpg">
+		          </a>
+		        </div>
+		        <!-- 第三张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/APP-lunbo-4.jpg">
+		          </a>
+		        </div>
+		        <!-- 第四张 -->
+		        <div class="mui-slider-item">
+		          <a href="#">
+		            <img src="images/APP-lunbo-3.jpg">
+		          </a>
+		        </div>
+		        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		        <div class="mui-slider-item mui-slider-item-duplicate">
+		          <a href="#">
+		            <img src="images/APP-lunbo-2.jpg">
+		          </a>
+		        </div>
+		      </div>
+		      <div class="mui-slider-indicator">
+		        <div class="mui-indicator mui-active"></div>
+		        <div class="mui-indicator"></div>
+		        <div class="mui-indicator"></div>
+		        <div class="mui-indicator"></div>
+		      </div>
+		    </div>
+		    
+			    <!--中间热门景点-->
+			<ul class="mui-table-view mui-grid-view">
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4" id="city">
+			        <a href="">
+			            <img class="mui-media-object" src="images/APP-remenjingdian.jpg">
+			            <div class="mui-media-body">热门景点</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-mingxingluxian.jpg">
+			            <div class="mui-media-body">明星路线</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-tuangoumiaosha.jpg">
+			            <div class="mui-media-body">团购秒杀</div>
+			        </a>
+			    </li>
+			    
+			</ul>
+			<div id="home-bg" style="height:0.7rem;"></div>
+			<ul class="mui-table-view mui-grid-view" id="dianjiyouwan">
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3" id="zhoubianyou">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-zhoubianyou.png">
+			            <div class="mui-media-body">周边游</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-guoneiyou.png">
+			            <div class="mui-media-body">国内游</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-chujingyou.png">
+			            <div class="mui-media-body">出境游</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-dangdiwanle.png">
+			            <div class="mui-media-body">当地玩乐</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-jingdianmenpiao.png">
+			            <div class="mui-media-body">景点门票</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-jiudian.png">
+			            <div class="mui-media-body">酒店</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-jipiao.png">
+			            <div class="mui-media-body">机票</div>
+			        </a>
+			    </li>
+			     <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/APP-huochepiao.jpg">
+			            <div class="mui-media-body">火车票</div>
+			        </a>
+			    </li>
+			</ul>
+			
+			<!--欢乐周末-->
+			<div class="mui-slider">
+			    <div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			        <a class="mui-control-item" href="#item1">欢乐周末</a>
+			        <a class="mui-control-item" href="#item2">欢乐长假</a>
+			        <a class="mui-control-item" href="#item3">一日游</a>
+			    </div>
+			    <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+			    <div class="mui-slider-group">
+			        <div id="item1" class="mui-slider-item mui-control-content mui-active">
+			            <ul class="mui-table-view">
+			                <li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			                
+			            </ul>
+			        </div>
+			        <div id="item2mobile" class="mui-slider-item mui-control-content">
+			            <ul class="mui-table-view">
+			               <li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			            </ul>
+			        </div>
+			        <div id="item3mobile" class="mui-slider-item mui-control-content">
+			            <ul class="mui-table-view">
+			               <li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			      			<li class="mui-table-view-cell">
+			                	<div>
+			                		<ul>
+			                			<li></li>
+			                			<li></li>
+			                			<li><img class="" src="images/APP-yaoqin-01-9_23.png"></li>
+			                		</ul>
+			      				</div>
+			      			</li>
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+		<div id="pulldownContents"></div>
+		<div class="pulldown"></div>
+	</body>
+</html>
+<script type="text/javascript" src="js/app/home.js"></script>

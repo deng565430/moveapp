@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/app/destination.css"/>
+	</head>
+
+	<body>
+		<div class="mui-content">
+		    <div class="subnav">
+		    	<li>
+		    		<a href="#" class="active" id="hot">热门</a>
+		    	</li>
+                <li>
+		    		<a href="#" id="bj">北京</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="jzh">江浙沪</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="gd">广东</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="hn">海南</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="ga">港澳</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="tw">台湾</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="qg">全国</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="oz">欧洲</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="dny">东南亚</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="rh">日韩</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="mz">美洲</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="zdf">中东非</a>
+		    	</li>
+		    	<li>
+		    		<a href="#" id="az">澳洲</a>
+		    	</li>
+            </div>
+	        <div class="submenu">
+	            <img src="images/dest-current-hot.jpg"/>
+				<h4>大家都去哪玩</h4>
+				<ul>
+					<li><img src="images/dest-qunaer-01.jpg"/></li>
+					<li><img src="images/dest-qunaer-02.jpg"/></li>
+					<li><img src="images/dest-qunaer-03.jpg"/></li>
+					<li><img src="images/dest-qunaer-04.jpg"/></li>
+				</ul>
+				<h4>时尚浪漫之都</h4>
+				<ul>
+					<li><img src="images/dest-fashion-01.jpg"/></li>
+					<li><img src="images/dest-fashion-02.jpg"/></li>
+					<li><img src="images/dest-fashion-03.jpg"/></li>
+					<li><img src="images/dest-fashion-04.jpg"/></li>
+				</ul>
+				<h4>特色美食</h4>
+				<ul>
+					<li><img src="images/dest-food-01.jpg"/></li>
+					<li><img src="images/dest-food-02.jpg"/></li>
+					<li><img src="images/dest-food-01.jpg"/></li>
+					<li><img src="images/dest-food-02.jpg"/></li>
+				</ul>
+	        </div>
+		</div>
+		<script src="js/lib/jquery-1.8.3.min.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			//初始化时加载默认为.active的页面
+			
+			
+			mui(".subnav").on("tap", 'a', function(){
+				//获取id
+  				var id = this.getAttribute("id");
+  				$(this).parent().siblings().find('a').removeClass('active');
+  				$(this).addClass('active');
+  				
+			});
+			
+		</script>
+	</body>
+
+</html>

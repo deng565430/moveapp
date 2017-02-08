@@ -1,0 +1,218 @@
+body{
+    font-size:62.5%;
+    background: white;
+}
+*{
+    padding:0;
+    margin:0;
+}
+/*导航条的样式*/
+.navBar{
+    width:100%;
+    background: rgb(229,229,229);
+}
+.everyDaynav{
+    padding-top:1rem;
+    width:90%;
+    margin:0 auto;
+}
+.everyDaynav>span{
+    display: inline-block;
+   text-align:center;
+    width:32.5%;
+    font-size:1.0rem;
+    font-weight:600;
+    line-height:2rem;
+}
+.everyDaynav>span:nth-child(1){
+    background:#fff;
+}
+/*欢乐周末的样式*/
+.panicBuyingContent{
+    list-style: none;
+    margin-top:1rem;
+}
+.panicBuyingContent>li{
+    width:90%;
+    margin:0 auto;
+    background: rgb(229,229,229);
+    border-radius: 0.5rem;
+}
+.panicTime{
+    padding-top: 0.7rem;
+    overflow: hidden;
+    padding-bottom:0.3rem;
+}
+.panicTime>img{
+    width:30%;
+    float: left;
+}
+.panicTime>.panicTiming{
+    font-size: 0.6rem;
+    width:40%;
+    float:right;
+}
+.panicTiming>p{
+    font-size: 0.8rem;
+    padding:0;
+    margin:0;
+}
+.panicTiming>p>span{
+    display: inline-block;
+    width:1.2rem;
+    margin:0 0.2rem;
+    height:0.8rem;
+    background: black;
+    vertical-align:middle;
+    color:white;
+    line-height: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+.panicContent>img{
+    display: block;
+    width:95%;
+    margin:0 auto;
+}
+.panicFooter{
+    width:100%;
+    padding-top:0.5rem;
+}
+.panicFooter>p{
+    font-size: 0.9rem;
+    color:black;
+}
+.panicFooter>p:nth-child(2){
+    overflow: hidden;
+    padding:0 0.5rem;
+    padding-bottom: 0.3rem;
+}
+.panicFooter>p>span{
+    width:12%;
+    font-size: 0.8rem;
+    color:rgb(252,102,1);
+    line-height: 1rem;
+    text-align: center;
+    float: left;
+    border:0.1rem solid rgb(252,102,1);
+}
+.panicFooter>p>button{
+    float: right;
+    width:22%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    color:#fff;
+    line-height:0.8rem;
+    background:rgb(252,102,1) ;
+}
+/*天天特价的样式*/
+.everyDay{
+    width:90%;
+    margin:1rem auto;
+}
+.everyDayNav{
+    overflow: hidden;
+}
+.everyDay h3{
+    float:left;
+    color:red;
+    font-size: 1.2rem;
+}
+.everyDay h3 span{
+    font-size: 0.6rem;
+    color:#aaa;
+    font-weight: 300;
+}
+.everyDay p{
+    float:right;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+.everyDay p span{
+    display: inline-block;
+    border:0.1rem solid #aaa;
+    width:0.8rem;
+    text-align: center;
+    line-height: 0.6rem;
+    height:0.8rem;
+    border-radius: 50%;
+}
+.everyDayContent{
+    list-style: none;
+}
+.everyDayContent li{
+    width:47%;
+    display: inline-block;
+    overflow: hidden;
+    margin-right:4%;
+    border-radius: 0.6rem;
+    border:.1rem solid #aaa;
+    margin-bottom: 1rem;
+    height:15rem;
+    vertical-align: top;
+}
+.everyDayContent li:nth-child(2n){
+    margin-right: 0;
+}
+.everyDayImg{
+    width:100%;
+    position: relative;
+}
+.everyDayImg>img{
+    width:100%;
+}
+.everyDayImg>.everyDayTime{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    background: rgb(252,102,1);
+    color:#fff;
+    padding-left: 0.5rem;
+}
+.everyDayImg>.everyDayTime>span{
+    display: inline-block;
+    width:1rem;
+    text-align: center;
+}
+.everyDayDescript>p:nth-child(1){
+    padding:0;
+    margin:0;
+    width:100%;
+    color:black;
+    height:1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.everyDayDescript p:nth-child(2){
+    width:100%;
+    padding-right: .5rem;
+    height:1.2rem;
+    line-height: 1.2rem;
+    text-align: right;
+    color:rgb(252,102,1);
+}
+.everyDayMore{
+    margin-top:1rem;
+    width:100%;
+    text-align: center;
+}
+.everyDayMore>button{
+    width:30%;
+    height:1.8rem;
+    text-align: center;
+    background: rgb(252,102,1);
+    border-radius: .5rem;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+/*一元购*/
+.yiYuan{
+    width:100%;
+    text-align: center;
+    margin-top:8rem;
+    color:#aaa;
+    font-size: 1rem;
+}

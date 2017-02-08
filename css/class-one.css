@@ -1,0 +1,80 @@
+
+/*四小板块*/
+   #four{
+      margin-top: 20px;
+      padding: 0 20px;
+      width:100%;
+      height:153px;
+      /*border: 1px solid red;*/
+      background: white;
+   }
+
+  ul li{
+   list-style: none;
+   width:50%;
+   height: 75px;
+   /*border: 1px solid lightcoral;*/
+   float: left;
+   padding: 10px;
+   background: white;
+  }
+
+ul li:nth-child(1){
+    border-right:1px solid #c4c4c4;
+    border-bottom:1px solid #c4c4c4;
+}
+
+ul li:nth-child(2){ 
+    border-bottom:1px solid #c4c4c4;
+}
+
+ul li:nth-child(3){ 
+    border-right:1px solid #c4c4c4;
+}
+ul li a img{
+      width: 100%;
+      height: 100%;
+  }
+
+/*精选人气景点*/
+#two{
+      margin-top: 20px;
+      padding:0 10px;
+      width: 100%;
+      height: 200px;
+      /*border: 1px solid mediumvioletred;*/
+     padding-top: 20px;
+      background: white;
+}
+#two li{
+     list-style: none;
+     overflow: hidden;
+     width: 49%;
+    /* border: 1px solid red;*/
+     float: left;  
+}
+
+
+#two li img{
+     width: 100%;
+     height: 17%;
+}
+#two h2{
+      font-family: "微软雅黑";
+      margin: 20px 0;
+      font-size: 15px;
+}
+
+
+li p span c{
+    
+    color:orange;
+    font-size: 20px;
+}
+
+
+/*招商银行上海浦江镇支行
+江苏教育科技股份有限公司
+110909279110204
+
+4006189090*/

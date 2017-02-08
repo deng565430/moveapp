@@ -1,0 +1,261 @@
+{
+	"index.html": {
+		"href": "index.html",
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"css/app/index.css",
+			"home.html",
+			"js/app/index.js",
+			"css/app/reset.css",
+			"view/city.html",
+			"shuffling.html"
+		],
+		"refer": [
+			"home.html",
+			"classify.html",
+			"view/city.html",
+			"info.html",
+			"destination.html",
+			"panicBuying.html",
+			"shuffling.html",
+			"info-register-1.html"
+		],
+		"priority": 0
+	},
+	"home.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"css/app/reset.css",
+			"images/APP-jiudian.png",
+			"images/APP-tuangoumiaosha.jpg",
+			"images/APP-guoneiyou.png",
+			"images/APP-jipiao.png",
+			"images/APP-remenjingdian.jpg",
+			"images/APP-jingdianmenpiao.png",
+			"images/APP-huochepiao.jpg",
+			"images/APP-chujingyou.png",
+			"images/APP-dangdiwanle.png",
+			"images/APP-zhoubianyou.png",
+			"images/APP-mingxingluxian.jpg",
+			"images/APP-lunbo-3.jpg",
+			"images/APP-lunbo-4.jpg",
+			"images/APP-yaoqin-01-9_23.png",
+			"images/APP-lunbo-1.jpg",
+			"images/APP-lunbo-2.jpg",
+			"view/city.html",
+			"js/app/home.js"
+		],
+		"refer": [
+			"view/city.html",
+			"view/zhoubian.html"
+		]
+	},
+	"view/city.html": {
+		"resources": [
+			"index.html",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/app/reset.css",
+			"fonts/mui.ttf",
+			"home.html",
+			"js/app/city.js"
+		],
+		"refer": [
+			"index.html",
+			"home.html"
+		]
+	},
+	"classify.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"js/lib/jquery-1.8.3.min.js",
+			"css/classify.css",
+			"images/APP-yaoqin-01-13_10.jpg",
+			"img/*\u0007�-5.jpg",
+			"images/APP-yaoqin-01-13_04.jpg",
+			"images/APP-yaoqin-01-13_07.jpg",
+			"images/APP-yaoqin-01-13_08.jpg",
+			"images/APP-yaoqin-01-13_05.jpg",
+			"img/*\u0007�-4.jpg",
+			"img/*\u0007�-1.jpg",
+			"images/APP-yaoqin-01-13_02.jpg",
+			"images/APP-yaoqin-01-13_03.jpg",
+			"img/*\u0007�-3.jpg",
+			"img/*\u0007�-2.jpg",
+			"images/APP-yaoqin-01-13_09.jpg",
+			"images/APP-yaoqin-01-13_01.jpg",
+			"images/APP-yaoqin-01-13_06.jpg",
+			"images/L9.jpeg",
+			"images/001.jpg",
+			"images/005.jpg",
+			"images/002.jpg",
+			"images/003.jpg",
+			"images/004.jpg",
+			"css/class.css",
+			"images/APP-lunbo-4.jpg",
+			"images/APP-lunbo-1.jpg",
+			"class-one.html"
+		],
+		"refer": [
+			"class-one.html"
+		]
+	},
+	"destination.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"images/dest-fashion-01.jpg",
+			"images/dest-food-01.jpg",
+			"images/dest-current-hot.jpg",
+			"images/dest-qunaer-03.jpg",
+			"js/lib/jquery-1.8.3.min.js",
+			"images/dest-fashion-02.jpg",
+			"images/dest-qunaer-01.jpg",
+			"images/dest-fashion-03.jpg",
+			"images/dest-qunaer-04.jpg",
+			"images/dest-food-02.jpg",
+			"css/app/destination.css",
+			"images/dest-qunaer-02.jpg",
+			"images/dest-fashion-04.jpg"
+		],
+		"refer": []
+	},
+	"info.html": {
+		"resources": [
+			"css/app/index.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf"
+		],
+		"refer": [
+			"info-set.html",
+			"info-register.html",
+			"info-help.html"
+		]
+	},
+	"view/zhoubian.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/app/reset.css"
+		],
+		"refer": []
+	},
+	"panicBuying.html": {
+		"resources": [
+			"js/app/panicBuying.js",
+			"images/panicBuyingTime.jpg",
+			"images/everyDay2.jpg",
+			"images/panicBuyingContent2.jpg",
+			"images/panicBuyingContent1.jpg",
+			"css/app/panicBuying.css",
+			"images/everyDay1.jpg",
+			"spanicBuying-detail.html",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"spanicBuying-detail.html"
+		]
+	},
+	"shuffling.html": {
+		"resources": [
+			"images/APP-yaoqin-01-4_02.png",
+			"images/APP-yaoqin-01-5_02.png",
+			"images/APP-yaoqin-01-2_02.png",
+			"images/APP-yaoqin-01-3_02.png",
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"images/APP-yaoqin-01-3.png",
+			"images/APP-yaoqin-01-5.png",
+			"images/APP-yaoqin-01-4.png",
+			"images/APP-yaoqin-01-2.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"spanicBuying-detail.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/app/panicBuying-detail.js",
+			"css/app/spanicBuying-detail.css",
+			"panicBuying.html"
+		],
+		"refer": [
+			"panicBuying.html"
+		]
+	},
+	"class-one.html": {
+		"resources": [
+			"js/app/class-one.js",
+			"images/95.jpg",
+			"images/L3.jpg",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"images/89.jpg",
+			"images/98.jpg",
+			"css/class-one.css",
+			"images/88.jpg",
+			"images/96.jpg",
+			"images/L1.jpg",
+			"images/97.jpg",
+			"classify.html",
+			"images/L9.jpeg"
+		],
+		"refer": [
+			"classify.html"
+		]
+	},
+	"info-register-1.html": {
+		"resources": [
+			"images/register-b.png",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/app/index.css",
+			"images/register-a.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"info-set.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"fonts/iconfont.ttf",
+			"css/app/index.css"
+		]
+	},
+	"info-register.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/app/index.css"
+		]
+	},
+	"info-help.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"fonts/iconfont.ttf",
+			"css/app/index.css"
+		]
+	}
+}
